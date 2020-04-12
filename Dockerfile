@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-EXPOSE 80/tcp
+EXPOSE 8080/tcp
 
 RUN apt update && \
   apt install -y git default-jdk tomcat8 maven && \
